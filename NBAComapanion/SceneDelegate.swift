@@ -2,8 +2,6 @@
 //  SceneDelegate.swift
 //  NBAComapanion
 //
-//  Created by Jacopo Trucci on 26/01/2021.
-//
 
 import UIKit
 

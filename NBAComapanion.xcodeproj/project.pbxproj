@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE71528B25C1837F00B71E7C /* PlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE71528925C1837F00B71E7C /* PlayerTableViewCell.swift */; };
+		FE71528C25C1838000B71E7C /* PlayerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE71528A25C1837F00B71E7C /* PlayerTableViewCell.xib */; };
+		FE71528F25C19E2D00B71E7C /* PlayerInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE71528E25C19E2D00B71E7C /* PlayerInfoViewController.swift */; };
+		FE71529425C1A51E00B71E7C /* NoPlayerAvailableTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE71529225C1A51E00B71E7C /* NoPlayerAvailableTableViewCell.xib */; };
+		FE9FF17825C0578500B6694D /* TeamDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9FF17625C0578500B6694D /* TeamDetailTableViewCell.swift */; };
+		FE9FF17925C0578500B6694D /* TeamDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE9FF17725C0578500B6694D /* TeamDetailTableViewCell.xib */; };
 		FEA0660125C04F2100727FD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA0660025C04F2100727FD1 /* AppDelegate.swift */; };
 		FEA0660325C04F2100727FD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA0660225C04F2100727FD1 /* SceneDelegate.swift */; };
-		FEA0660525C04F2100727FD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA0660425C04F2100727FD1 /* ViewController.swift */; };
+		FEA0660525C04F2100727FD1 /* TeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA0660425C04F2100727FD1 /* TeamsViewController.swift */; };
 		FEA0660825C04F2100727FD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA0660625C04F2100727FD1 /* Main.storyboard */; };
 		FEA0660A25C04F2400727FD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA0660925C04F2400727FD1 /* Assets.xcassets */; };
 		FEA0660D25C04F2400727FD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA0660B25C04F2400727FD1 /* LaunchScreen.storyboard */; };
+		FEA0661825C04FC500727FD1 /* EasyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA0661725C04FC500727FD1 /* EasyRequest.swift */; };
+		FEA0661C25C0507E00727FD1 /* TeamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA0661B25C0507E00727FD1 /* TeamModel.swift */; };
+		FECBB1D925C066FA00739AD3 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBB1D825C066FA00739AD3 /* PlayersViewController.swift */; };
+		FECBB1DC25C067A800739AD3 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBB1DB25C067A800739AD3 /* PlayerModel.swift */; };
+		FECBB1DF25C0682100739AD3 /* CompanionConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBB1DE25C0682100739AD3 /* CompanionConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE71528925C1837F00B71E7C /* PlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewCell.swift; sourceTree = "<group>"; };
+		FE71528A25C1837F00B71E7C /* PlayerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerTableViewCell.xib; sourceTree = "<group>"; };
+		FE71528E25C19E2D00B71E7C /* PlayerInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerInfoViewController.swift; sourceTree = "<group>"; };
+		FE71529225C1A51E00B71E7C /* NoPlayerAvailableTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoPlayerAvailableTableViewCell.xib; sourceTree = "<group>"; };
+		FE9FF17625C0578500B6694D /* TeamDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailTableViewCell.swift; sourceTree = "<group>"; };
+		FE9FF17725C0578500B6694D /* TeamDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamDetailTableViewCell.xib; sourceTree = "<group>"; };
 		FEA065FD25C04F2100727FD1 /* NBAComapanion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBAComapanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA0660025C04F2100727FD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEA0660225C04F2100727FD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FEA0660425C04F2100727FD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEA0660425C04F2100727FD1 /* TeamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsViewController.swift; sourceTree = "<group>"; };
 		FEA0660725C04F2100727FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FEA0660925C04F2400727FD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEA0660C25C04F2400727FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEA0660E25C04F2400727FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA0661725C04FC500727FD1 /* EasyRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyRequest.swift; sourceTree = "<group>"; };
+		FEA0661B25C0507E00727FD1 /* TeamModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamModel.swift; sourceTree = "<group>"; };
+		FECBB1D825C066FA00739AD3 /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
+		FECBB1DB25C067A800739AD3 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		FECBB1DE25C0682100739AD3 /* CompanionConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +59,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE71529625C1A52D00B71E7C /* PlayerCell */ = {
+			isa = PBXGroup;
+			children = (
+				FE71528925C1837F00B71E7C /* PlayerTableViewCell.swift */,
+				FE71528A25C1837F00B71E7C /* PlayerTableViewCell.xib */,
+				FE71529225C1A51E00B71E7C /* NoPlayerAvailableTableViewCell.xib */,
+			);
+			path = PlayerCell;
+			sourceTree = "<group>";
+		};
+		FE71529825C1AC1400B71E7C /* TeamCell */ = {
+			isa = PBXGroup;
+			children = (
+				FE9FF17725C0578500B6694D /* TeamDetailTableViewCell.xib */,
+				FE9FF17625C0578500B6694D /* TeamDetailTableViewCell.swift */,
+			);
+			path = TeamCell;
+			sourceTree = "<group>";
+		};
 		FEA065F425C04F2100727FD1 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +97,55 @@
 		FEA065FF25C04F2100727FD1 /* NBAComapanion */ = {
 			isa = PBXGroup;
 			children = (
+				FEA0661525C04F2C00727FD1 /* Utils */,
+				FEA0661A25C0506300727FD1 /* Models */,
+				FEA0661F25C0548B00727FD1 /* Teams */,
+				FECBB1D625C064AB00739AD3 /* Players */,
 				FEA0660025C04F2100727FD1 /* AppDelegate.swift */,
 				FEA0660225C04F2100727FD1 /* SceneDelegate.swift */,
-				FEA0660425C04F2100727FD1 /* ViewController.swift */,
 				FEA0660625C04F2100727FD1 /* Main.storyboard */,
 				FEA0660925C04F2400727FD1 /* Assets.xcassets */,
 				FEA0660B25C04F2400727FD1 /* LaunchScreen.storyboard */,
 				FEA0660E25C04F2400727FD1 /* Info.plist */,
 			);
 			path = NBAComapanion;
+			sourceTree = "<group>";
+		};
+		FEA0661525C04F2C00727FD1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FEA0661725C04FC500727FD1 /* EasyRequest.swift */,
+				FECBB1DE25C0682100739AD3 /* CompanionConstants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FEA0661A25C0506300727FD1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FEA0661B25C0507E00727FD1 /* TeamModel.swift */,
+				FECBB1DB25C067A800739AD3 /* PlayerModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FEA0661F25C0548B00727FD1 /* Teams */ = {
+			isa = PBXGroup;
+			children = (
+				FE71529825C1AC1400B71E7C /* TeamCell */,
+				FEA0660425C04F2100727FD1 /* TeamsViewController.swift */,
+			);
+			path = Teams;
+			sourceTree = "<group>";
+		};
+		FECBB1D625C064AB00739AD3 /* Players */ = {
+			isa = PBXGroup;
+			children = (
+				FE71529625C1A52D00B71E7C /* PlayerCell */,
+				FECBB1D825C066FA00739AD3 /* PlayersViewController.swift */,
+				FE71528E25C19E2D00B71E7C /* PlayerInfoViewController.swift */,
+			);
+			path = Players;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +206,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEA0660D25C04F2400727FD1 /* LaunchScreen.storyboard in Resources */,
+				FE9FF17925C0578500B6694D /* TeamDetailTableViewCell.xib in Resources */,
+				FE71528C25C1838000B71E7C /* PlayerTableViewCell.xib in Resources */,
 				FEA0660A25C04F2400727FD1 /* Assets.xcassets in Resources */,
 				FEA0660825C04F2100727FD1 /* Main.storyboard in Resources */,
+				FE71529425C1A51E00B71E7C /* NoPlayerAvailableTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +221,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEA0660525C04F2100727FD1 /* ViewController.swift in Sources */,
+				FEA0660525C04F2100727FD1 /* TeamsViewController.swift in Sources */,
+				FECBB1D925C066FA00739AD3 /* PlayersViewController.swift in Sources */,
+				FE71528B25C1837F00B71E7C /* PlayerTableViewCell.swift in Sources */,
+				FECBB1DC25C067A800739AD3 /* PlayerModel.swift in Sources */,
+				FEA0661C25C0507E00727FD1 /* TeamModel.swift in Sources */,
 				FEA0660125C04F2100727FD1 /* AppDelegate.swift in Sources */,
+				FECBB1DF25C0682100739AD3 /* CompanionConstants.swift in Sources */,
 				FEA0660325C04F2100727FD1 /* SceneDelegate.swift in Sources */,
+				FEA0661825C04FC500727FD1 /* EasyRequest.swift in Sources */,
+				FE9FF17825C0578500B6694D /* TeamDetailTableViewCell.swift in Sources */,
+				FE71528F25C19E2D00B71E7C /* PlayerInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
